@@ -1,0 +1,133 @@
+What is an Argument?
+
+Argument is a value that is passed to a function when it is called
+
+EX:
+def say_my_name(name): # here name is an Argument "which is added to the function"
+    print(name)
+
+say_my_name("sainaveen")
+
+
+What is implicit return?
+A function is returned values without using the return keyword is known as implicit.
+EX:
+sum2 = lambda a, b: a+b
+# lambda arg1, arg2:<exp>
+greet = lambda greet, name: f"{greet} {name}"
+print(greet('aloha', 'Naveen'))
+print("This is the value of the sum2 of lambda function:",sum2(5,30))
+
+
+'''
+Assertions allow you to test the correcrness of your code by checkingif some specific conditions remain true,
+which can come in handy whileyou're debugging code
+'''
+
+Ex:
+# testing your code /unit tests
+
+def test_sum():
+  assert sum(1,2) == 3, "sum(1,2) does not return 3 like it should"
+  assert sum(-20, 20) == 0
+  assert sum(20,20) == 40
+  assert sum(560, 780) == 1340
+  print('sum function: All Tests passed (2/2)')
+test_sum()
+
+def test_calulate_food_total():
+  assert calculateFoodTotal(100, 20) == 120
+
+test_calulate_food_total()
+
+# List:
+
+👉 lists are used to store multipule items in asingle variable
+
+👉 List have the ability to contain different data types inside of them
+
+
+# Append:
+Adds an element at the end of the list
+
+# indexing
+Indexing in python is a way to refer the individual items within an iterable by it's position
+
+# DICTIONARY
+
+Dictionary is a key, is aunique identifier for some item of data, and the value, is either the data that is identified or apointer to the location  of that data
+Dictionary 👉 can only have unique key values inside
+
+# set
+A set is an unordered collection data type that is iterable, mutable and has no duplicate elements. you also can't call the 0th element of a SET
+
+
+# Mutable
+list and dictionary are Mutable, mutable is a type of a variable that can be changed.
+
+# concatenating
+
+concatenating 2 arrays essentially means joining 2 arrays together with their values
+
+
+### SPECIAL KEYWORDS ##
+python keywords are special reserved words that have specific meaning and pursoses and can't be used for anything but those specific purposes.
+EX: list, len, max, min ,append, pop, reversed...etc
+
+
+# in Operator
+
+The in operator returns true if the specified property is in  the specified object it's prototype chain
+
+# set()
+
+The set() function will turn an array into a set
+EX: set([1,2,3,4,5])
+output: {1,2,3,4,5}
+
+# function unique()
+stores the values ruby, ruby, python and onlly returns unique values
+EX: ''' unique(['ruby', 'ruby', 'python'])'''
+
+# for loop
+for loop is used for iteraring over a sequence (That is either a list, atuple, a dictionary, a set, or a string)
+EX:
+for i  in range (10):
+    print(i)
+
+
+# while loop
+A while Loop is used to iterate over a block of code as long as test expression (condition) is true.
+
+# Traversal
+
+Iteraring throught the loop is called Traversal
+
+EX:
+fruits = ['🍎','🍌','🍊','🍏','🍪']
+
+for fruit in fruits:
+  print(fruit)
+print("_____________________________")
+for i in fruits:
+  print(i)
+
+# Enumerate()
+
+The enumerate() function takes a collection(eg: atuple) and  returns it as an enumerate object. The enumerate() function adds a counter as the key of the enumerate object
+
+👉 The built-in enumerate() function allows you to loop over a list of items while keeping track of the index value in a separte variable
+
+# Tuple unpacking
+unpacking tuples means assigning individual elements of a tuple to multiple variable
+
+
+# (not(!) symbol)
+
+The (!=)is defined as not equao to operator. it returns True if operands on either side are not equal to each other, and return False if they are equal.
+
+
+# Pseudocode
+
+Pseudocode is a detailed descriptiom of what a computer program or algoritham must do,
+expressed in english rather than in a programming language. in order to simplify understanging.
