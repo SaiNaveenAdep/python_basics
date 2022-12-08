@@ -131,3 +131,10 @@ The (!=)is defined as not equao to operator. it returns True if operands on eith
 
 Pseudocode is a detailed descriptiom of what a computer program or algoritham must do,
 expressed in english rather than in a programming language. in order to simplify understanging.
+
+
+
+# Map()
+
+The map() function takes two inputs as a function and an iterable aobject,
+the function that given to map() is a normal function, and it will iterate over all the values present in the ierable object given
