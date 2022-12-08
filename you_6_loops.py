@@ -100,3 +100,76 @@ for i in range(1,11):
         for j in range(1,11):
                 print(i)
         print()
+
+print("Diferent between using break before print statement and after the print statement")
+names = ['naveen', 'adep', 'hare', 'krishna','mohan']
+for name in names:
+    print(name)
+    if name == 'hare':
+        break
+print("--------------------------------------------------")
+
+print("using the break statement before the print statement")
+print("which give you a out put till tirupathi")
+print('\n')
+places = ['vemulawada', 'vrindavan', 'mayapur', 'tirupathi', 'ayodhya']
+
+for place in places:
+    print(place)
+    if place == 'tirupathi':
+        break
+print("---------------------------------------------------------")
+print("using the break statement after the print statement")
+print("which give you a out put till 'vrindavan' and exclude 'mayapur',")
+print('\n')
+for place in places:
+    if place == 'mayapur':
+        break
+    print(place)
+print("--------------------------------------")
+print('\n')
+for place in places:
+    print(place)
+    if place == 'ayodhya':
+        break
+
+
+vegitables = ['Brinjal', 'tomato', 'carrot', 'radiesh', 'cabage']
+
+print("\n")
+print("-------------------------------------")
+print("\n")
+
+
+countries1=['India', 'usa', 'uk','Australia', 'southafrica', 'Europe', 'France', 'Netherlands']
+def world(countries1):
+    while True:
+        countries = input("Enter your country:")
+        for country in countries:
+            for countries_names_by_letters in country:
+                print(countries_names_by_letters)
+        if countries == 'India'.capitalize():
+            print("i love india")
+            break
+        elif countries == 'usa':
+            print("I love usa")
+            break
+        elif countries == 'uk' :
+            print("I love uk")
+            break
+        elif countries == 'Australia' :
+            print("I love Australia")
+            break
+        elif countries == 'southafrica' :
+            print("I love southafrica")
+            break
+        elif countries == 'Europe' :
+            print("I love Europe")
+            break
+    return countries1
+world(" ")
+
+
+
+#
+
